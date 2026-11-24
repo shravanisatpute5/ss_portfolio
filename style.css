@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Personal portfolio of Shravani Satpute, a first-year engineering student.">
+    <title>Shravani Satpute | Engineering Student</title>
+
+    <link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="index.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0" >
+<meta name="robots" content="none,noarchive"/>
+</head>
+
+<body>
+
+    <header class="header">
+        <nav class="navbar container" aria-label="Main navigation">
+            <a class="logo" href="#home" aria-label="Shravani Satpute home">
+                SS<span>.</span>
+            </a>
+
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <section class="hero" id="home">
+            <div class="hero-content container">
+                <div class="hero-text">
+                    <p class="eyebrow">Welcome to my portfolio</p>
+
+                    <h1>
+                        Hi, I am <span>Shravani Satpute</span>
+                    </h1>
+
+                    <h2>First-Year Engineering Student</h2>
+
+                    <p>
+                        I am an aspiring engineer who enjoys programming,
+                        designing practical solutions, and learning how
+                        technology can improve everyday life.
+                    </p>
+
+                    <div class="hero-actions">
+                        <a class="button primary-button" href="#contact">
+                            Contact Me
+                        </a>
+
+                        <a class="button secondary-button" href="#projects">
+                            View Projects
+                        </a>
+                    </div>
+                </div>
+
+                <div class="profile-wrapper">
+                    <img class="profile-image" src="https://static.vecteezy.com/system/resources/previews/014/194/215/original/avatar-icon-human-a-person-s-badge-social-media-profile-symbol-the-symbol-of-a-person-vector.jpg" alt="profile portrait of Shravani Satpute">
+                </div>
+            </div>
+        </section>
+
+
+        <section class="section" id="about">
+            <div class="container">
+                <div class="section-heading">
+                    <p class="eyebrow">Get to know me</p>
+                    <h2>About Me</h2>
+                </div>
+
+                <div class="about-grid">
+                    <article class="about-card">
+                        <h3>Who I Am</h3>
+                        <p>
+                            I am a curious and hardworking student who enjoys
+                            understanding how software and electronic systems
+                            work. I like turning classroom concepts into small,
+                            useful projects.
+                        </p>
+                    </article>
+
+                    <article class="about-card">
+                        <h3>Education</h3>
+                        <p>
+                            I am pursuing a Bachelor of Technology in Computer
+                            Science and Engineering. As a first-year student, I
+                            am building a foundation in programming,
+                            mathematics, engineering design, and communication.
+                        </p>
+                    </article>
+
+                    <article class="about-card">
+                        <h3>Interests and Goals</h3>
+                        <p>
+                            My interests include web development, artificial
+                            intelligence, robotics, and sustainable technology.
+                            My goal is to become a skilled software engineer and
+                            create accessible solutions to real-world problems.
+                        </p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="section skills-section" id="skills">
+            <div class="container">
+                <div class="section-heading">
+                    <p class="eyebrow">What I am learning</p>
+                    <h2>Technical Skills</h2>
+                    <p>
+                        A growing collection of technical and professional
+                        abilities developed through classes and personal work.
+                    </p>
+                </div>
+
+                <div class="skills-grid">
+                    <article class="skill-card">
+                        <div class="skill-icon" aria-hidden="true">&lt;/&gt;</div>
+                        <h3>HTML5</h3>
+                        <p>Semantic structure and accessible web pages.</p>
+                        <span class="skill-badge">Intermediate</span>
+                    </article>
+
+                    <article class="skill-card">
+                        <div class="skill-icon" aria-hidden="true">#</div>
+                        <h3>CSS3</h3>
+                        <p>Responsive layouts using Flexbox and Grid.</p>
+                        <span class="skill-badge">Intermediate</span>
+                    </article>
+
+                    <article class="skill-card">
+                        <div class="skill-icon" aria-hidden="true">C</div>
+                        <h3>C Programming</h3>
+                        <p>Variables, control flow, functions, and arrays.</p>
+                        <span class="skill-badge">Learning</span>
+                    </article>
+
+                    <article class="skill-card">
+                        <div class="skill-icon" aria-hidden="true">Py</div>
+                        <h3>Python</h3>
+                        <p>Problem-solving and basic automation programs.</p>
+                        <span class="skill-badge">Learning</span>
+                    </article>
+
+                    <article class="skill-card">
+                        <div class="skill-icon" aria-hidden="true">Git</div>
+                        <h3>Git and GitHub</h3>
+                        <p>Version control and project collaboration.</p>
+                        <span class="skill-badge">Beginner</span>
+                    </article>
+
+                    <article class="skill-card">
+                        <div class="skill-icon" aria-hidden="true">PS</div>
+                        <h3>Problem Solving</h3>
+                        <p>Logical thinking and structured solution design.</p>
+                        <span class="skill-badge">Developing</span>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="section" id="projects">
+            <div class="container">
+                <div class="section-heading">
+                    <p class="eyebrow">What I have created</p>
+                    <h2>My Projects</h2>
+                    <p>
+                        Beginner-friendly projects that apply engineering and
+                        programming concepts to practical situations.
+                    </p>
+                </div>
+
+                <div class="projects-grid">
+                    <article class="project-card">
+                        <img src="https://media.s-bol.com/B2XDO1O3nB2o/KJ10Qx/550x550.jpg" alt="study timer system project illustration">
+
+                        <div class="project-content">
+                            <div class="project-number">Project 01</div>
+                            <h3>Study Timer</h3>
+
+                            <p>
+                                A Python script that logs how long I actually spend on each subject.
+                                Runs in the background, and at the end of the week it prints a single line per subject with the total hours.
+                                Built mostly because I wanted to know where my evenings were going.
+                            </p>
+
+                            <div class="project-tags" aria-label="Project technologies">
+                                <span>Python</span>
+                                <span>CSV</span>
+                                <span>File Handling</span>
+                            </div>
+
+                            <a class="project-link" href="#contact">
+                                Ask about this project
+                                <span aria-hidden="true">&rarr;</span>
+                            </a>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <img src="https://img.jagranjosh.com/images/2023/January/312023/Veermata-Jijabai-Technological-Institute-VJTI-Mumbai-Campus-View-3.jpg" alt="Campus navigation website project illustration">
+
+                        <div class="project-content">
+                            <div class="project-number">Project 02</div>
+                            <h3>Campus Guide Website</h3>
+
+                            <p>
+                                A responsive website concept that helps new
+                                students find important campus locations and
+                                learn about available facilities using a simple,
+                                mobile-friendly interface.
+                            </p>
+
+                            <div class="project-tags" aria-label="Project technologies">
+                                <span>HTML5</span>
+                                <span>CSS3</span>
+                                <span>Flexbox</span>
+                            </div>
+
+                            <a class="project-link" href="#contact">
+                                Ask about this project
+                                <span aria-hidden="true">&rarr;</span>
+                            </a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="section contact-section" id="contact">
+            <div class="container">
+                <div class="section-heading">
+                    <p class="eyebrow">Start a conversation</p>
+                    <h2>Contact Me</h2>
+                    <p>
+                        Have a project idea, internship opportunity, or question?
+                        Send me a message using the form.
+                    </p>
+                </div>
+
+                <div class="contact-layout">
+                    <div class="contact-information">
+                        <h3>Let us connect</h3>
+
+                        <p>
+                            I am interested in learning opportunities,
+                            student collaborations, technical events, and
+                            beginner-friendly engineering projects.
+                        </p>
+
+                        <div class="contact-list">
+                            <a href="mailto:shravanisatpute@mail.com">
+                                <span class="contact-icon" aria-hidden="true">@</span>
+                                <span>
+                                    <small>Email</small>
+                                    shravanisatpute@mail.com
+                                </span>
+                            </a>
+
+                            <a href="tel:+919876XXXXX">
+                                <span class="contact-icon" aria-hidden="true">T</span>
+                                <span>
+                                    <small>Phone</small>
+                                    +91 98765 XXXXX
+                                </span>
+                            </a>
+
+                            <div>
+                                <span class="contact-icon" aria-hidden="true">L</span>
+                                <span>
+                                    <small>Location</small>
+                                    Pune, India
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <form class="contact-form" action="#" method="post">
+                        <div class="form-group">
+                            <label for="full-name">Full Name</label>
+                            <input id="full-name" name="full-name" type="text" autocomplete="name" placeholder="Enter your full name" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input id="email" name="email" type="email" autocomplete="email" placeholder="Enter your email address" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input id="subject" name="subject" type="text" placeholder="Enter the message subject" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="6" placeholder="Write your message" required></textarea>
+                        </div>
+
+                        <button class="button primary-button submit-button" type="submit">
+                            Submit Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+    <footer class="footer">
+        <div class="footer-content container">
+            <div>
+                <a class="footer-logo" href="#home">Shravani Satpute</a>
+                <p>Engineering student and aspiring software developer.</p>
+            </div>
+
+            <div class="social-links" aria-label="Social media links">
+                <a href="[linkedin.com](https://www.linkedin.com/)" target="_blank" rel="noopener noreferrer">
+                    LinkedIn
+                </a>
+
+                <a href="[github.com](https://github.com/)" target="_blank" rel="noopener noreferrer">
+                    GitHub
+                </a>
+
+                <a href="[instagram.com](https://www.instagram.com/)" target="_blank" rel="noopener noreferrer">
+                    Instagram
+                </a>
+            </div>
+        </div>
+
+        <div class="copyright">
+            <p>&copy; 2026 Shravani Satpute. All rights reserved.</p>
+        </div>
+    </footer>
+<script src="index.js"></script>
+</body>
+
+</html>
